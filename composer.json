@@ -1,0 +1,31 @@
+{
+    "name": "heedworks/laravel-queue-azure",
+    "description": "Azure Queue driver for Laravel Queue",
+    "authors": [
+        {
+            "name": "Neal Erickson",
+            "email": "neal@heedworks.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "microsoft/windowsazure": "*"
+    },
+    "require-dev": {
+        "illuminate/support": "4.1.*",
+        "illuminate/config": "4.1.*",
+        "illuminate/queue": "4.1.*"
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Heedworks\\LaravelQueueAzure": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

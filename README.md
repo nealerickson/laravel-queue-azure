@@ -8,12 +8,12 @@ Update your `composer.json` file to include this package as a dependency
 "heedworks/laravel-queue-azure": "dev-master"
 ```
 
-#Configuration
-
 Register the Azure Queue service provider by adding it to the providers array in the `app/config/app.php` file.
 ```
-Heedworks\LaravelLoggr\LaravelQueueAzureServiceProvider
+Heedworks\LaravelQueueAzure\LaravelQueueAzureServiceProvider
 ```
+
+#Configuration
 
 Configure your connection in `app/config/queue.php`:
 ```php

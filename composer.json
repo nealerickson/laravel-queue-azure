@@ -1,10 +1,14 @@
 {
     "name": "heedworks/laravel-queue-azure",
     "description": "Azure Queue driver for Laravel Queue",
+    "type": "library",
+    "keywords": ["laravel", "windows", "azure", "queue"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Neal Erickson",
-            "email": "neal@heedworks.com"
+            "email": "neal@heedworks.com",
+            "homepage": "https://github.com/nealerickson"
         }
     ],
     "require": {

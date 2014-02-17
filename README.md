@@ -3,9 +3,20 @@ Azure Queue driver for Laravel
 
 #Installation
 
-Update your `composer.json` file to include this package as a dependency
+Add the following to your `composer.json` file to include this package as a dependency
 ```json
-"heedworks/laravel-queue-azure": "dev-master"
+{
+    "require": {
+        "heedworks/laravel-queue-azure": "dev-master"
+    },          
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
 ```
 
 Register the Azure Queue service provider by adding it to the providers array in the `app/config/app.php` file.
